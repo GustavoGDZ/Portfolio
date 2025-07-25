@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo Guimarães | Portfólio para o +PraTi</title>
+  <meta name="description" content="">
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <p>Gustavo Guimarães</p>
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <img class="personal_photo" src="/assets/images/personal/minha-foto.jpg" alt="Minha foto">
+      <h2><b>Gustavo Guimarães De Zotti</b> </h2>
+      <p>Desenvolvimento Criativo para a Web</p>      
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/GustavoGDZ" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/gustavo-guimarães-de-zotti-4b9b9b196/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/logo-html.png" alt="Logo HTML5">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/logo-css3.png" alt="Logo CSS3">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/logo-javascript.png" alt="Logo JavaScript">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/spider-man.jpg" alt="Capa spider-man">
+        <div class="card__body">
+          <h3 class="card__title">spider-man | multiverso</h3>
+          <p class="card__description">Um site que fala sobre cada filme do homem aranha</p>
+          <ul class="card__list">
+            <li class="card__item">Ano e diretor;</li>
+            <li class="card__item">Trailer de cada filme;</li>
+            <li class="card__item">Sinopse de cada um deles.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-html.png" alt="Logo HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-css3.png" alt="Logo CSS3">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-javascript.png" alt="Logo JavaScript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <a href="https://github.com/GustavoGDZ/site-spiderman-multiverso" target="_blank">
+              <button class="btn">
+                <span>Repositório</span>
+                <i class="bi bi-github"></i>
+              </button>
+            </a>              
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/stranger-things.jpg" alt="Capa stranger-things">
+        <div class="card__body">
+          <h3 class="card__title">stranger-things | Mundo Invertido</h3>
+          <p class="card__description">Uma landing page sobre Stranger-Things</p>
+          <ul class="card__list">
+            <li class="card__item">Diz um pouco sobre a série e o mundo invertido dela;</li>
+            <li class="card__item">Som temático da série;</li>
+            <li class="card__item">Opção para entrar no mundo invertido.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-html.png" alt="Logo HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-css3.png" alt="Logo CSS3">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-javascript.png" alt="Logo JavaScript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <a href="https://github.com/GustavoGDZ/Mundo-invertido-DIO" target="_blank">
+              <button class="btn">
+                <span>Repositório</span>
+                <i class="bi bi-github"></i>
+              </button>
+            </a>              
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/yugioh.jpg" alt="yu-gi-oh">
+        <div class="card__body">
+          <h3 class="card__title">yu-gi-oh | JO-KEN-PO</h3>
+          <p class="card__description">Jogo de jo-ken-po no estilo yu-gi-oh.</p>
+          <ul class="card__list">
+            <li class="card__item">Som temático do jogo;</li>
+            <li class="card__item">Cartas temáticas do jogo;</li>
+            <li class="card__item">Cartas aleatórias toda rodada.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-html.png" alt="HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-css3.png" alt="Logo CSS3">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/logo-javascript.png" alt="Logo JavaScript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <a href="https://github.com/GustavoGDZ/js-yugioh-assets" target="_blank">
+              <button class="btn">
+                <span>Repositório</span>
+                <i class="bi bi-github"></i>
+              </button>
+            </a>              
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/GustavoGDZ">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.jpg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Sou o Gustavo, tenho 22 anos, estou em busca de oportunidades na área de Tecnologia e Informação.
+          Possuo habilidades em HTML, CSS, JavaScript e OutSystems com facilidade em aprender.
+          Quero aplicar meu conhecimento, crescer na área e contribuir para projetos inovadores.
+          Aberto ao networking e pronto para agregar valor à sua equipe. Vamos crescer juntos!
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://github.com/GustavoGDZ" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e Desenvolvimento de Sistemas</h4>
+          <span>Fev 2022 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Anhanguera</span>
+          </div>
+      </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      E-mail ou WhatsApp e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/GustavoGDZ" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/gustavo-guimarães-de-zotti-4b9b9b196/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://wa.me/5551992481476" target="_blank">
+          <i class="menu__icon bi bi-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+        </li>
+    </ul>
+    <a href="mailto:gustavoguimazotti@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">gustavoguimazotti@gmail.com</span>
+      </button>
+    </a>    
+  </section>
+
+  <footer>
+    <p>
+      © 2025. Todos os direitos reservados. Portfólio desenvolvido por 
+      <a href="https://github.com/GustavoGDZ" target="_blank">Gustavo</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
