@@ -688,7 +688,7 @@ footer p {
 
 }
 
-.personal_photo {
+.about__photo {
   width: 200px;           
   height: 200px;           
   object-fit: cover;       
@@ -700,7 +700,7 @@ footer p {
 
 /* Aplica somente em telas de até 600px (mobile) */
 @media (max-width: 600px) {
-  .personal_photo {
+  .about__photo {
     width: 150px;
     height: 150px;
     display: block;
